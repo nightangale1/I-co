@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: url('pic1.jpg');
+            background-size: 1500px 900px;
+            background-repeat: no-repeat;
+
+        }
+        h1{
+            color: rgb(190, 165, 76);
+            margin-left: 100px;
+            /* margin-right: 7000px; */
+            font-size: 50px;
+        }
+
+        #a3{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            /* background-color: rgba(209, 203, 203, 0.723); */
+            margin-left: 900px;
+            margin-top: -90px;
+            position: absolute;
+        }
+
+        div {
+            margin-right: 15px;
+            float: right;
+        }
+
+        div a{
+            display: block;
+            color: rgb(69, 65, 66);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        div a:hover{
+            background-color: rgb(167, 161, 161);
+        }
+        #a5{
+            color: rgb(69, 65, 66);
+            width: 350px;
+            background-color: rgba(209, 203, 203, 0.434);
+            margin-left: 100px;
+            font-size: 75px;
+        }
+        #a5:hover{
+            background-color: rgb(69, 65, 66);
+            color: rgba(209, 203, 203, 0.723);
+        }
+        
+        #a4{
+            color: rgb(69, 65, 66);
+            width: 400px;
+            background-color: rgba(209, 203, 203, 0.723);
+            margin-left: 100px;
+            font-size: 50px;
+            margin-top: -60px;
+        }
+        #a4:hover{
+            background-color: rgb(69, 65, 66);
+            color: rgba(209, 203, 203, 0.723);
+        }
+        
+
+        #a6{
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            width: 350px;
+            height:90px;
+            transform: skew(15deg, 10deg);
+            margin-top: -150px;
+            z-index: -30;
+            margin-left: 90px;
+        }
+
+        #a7{
+            color: rgb(63, 62, 62);
+            margin-top: -60px;
+            margin-left: 98px;
+            background-color: rgba(174, 172, 172, 0.934);
+            width: 420px;
+        }
+
+        button{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-left: 98px;
+            background-color: rgba(203, 149, 102, 0.505);
+            border: none;
+        }
+        button:hover{
+            background-color: rgba(187, 104, 15, 0.88);
+            color: whitesmoke;
+        }
+        #a8{
+            position: absolute;
+            background-color: rgba(97, 97, 97, 0.779);
+            width: 900px;
+            height: 500px;
+            margin-left: 200px;
+        }
+        #a9{
+            font-size: 26px;
+            position: absolute;
+            margin-left: 100px;
+            color: rgb(190, 165, 76);
+            margin-top: 5px;
+        }
+        #b1{
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 100px;
+            font-size: 55px;
+        }
+        #b2{
+            position: absolute;
+            margin-top: 120px;
+            width: 370px;
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        #b3{
+            position: absolute;
+        }
+        #b4{
+            position: absolute;
+            width: 400px;
+            height: 320px;
+            margin-left: 460px;
+            margin-top: 120px;
+        }
+        #b6{
+            position: absolute;
+            margin-left: -750px;
+            margin-top: 500px;
+        }
+        .c2{
+            color: rgb(255, 255, 255);
+            width: 300px;
+        }
+        #c3{
+            position:absolute ;
+            margin-left: 200px;
+            margin-top: 650px;
+            border: 2px solid rgb(189, 176, 176); 
+            background-color: rgba(167, 161, 161, 0.384);
+        }
+        #b7{
+            width: 300px;
+            height: 200px;
+        }
+        #c4{
+            position: absolute;
+            margin-left: 900px;
+            margin-top: 650px;
+            border: 2px solid rgb(189, 176, 176); 
+            background-color: rgba(167, 161, 161, 0.384);
+        }
+        #b8{
+            width: 300px;
+            height: 200px;
+        }
+        #b9{
+            width: 300px;
+            height: 200px;
+        }
+        #c5{
+            position: absolute;
+            margin-left: 900px;
+            margin-top: 1100px;
+            border: 2px solid rgb(189, 176, 176);
+            background-color: rgba(167, 161, 161, 0.384);
+        }
+        #c6{
+            position:absolute ;
+            margin-left: 200px;
+            margin-top: 1100px;
+            border: 2px solid rgb(189, 176, 176);
+            background-color: rgba(167, 161, 161, 0.384);
+        }
+        #b10{
+            width: 300px;
+            height: 200px;
+        }
+
+        video{
+            margin-top: 1600px;
+            background-image: url('ammo.jpg');
+            background-size: 800px 500px;
+        }
+        #c7{
+            margin-left: 660px;
+            color: rgb(69, 65, 66);
+            background-color: rgba(209, 203, 203, 0.979);
+            width: 100px;
+        }
+        #c8{
+         margin-left: 565px;   
+
+        }
+        #asd{
+            background-color: black;
+            width: 1400px;
+            height: 990px;
+            z-index: -30;
+            margin-top: -1700px;
+        }
+        #ads{
+            height: 1000px;
+
+        }
+        footer{
+            background-color: rgb(69, 65, 66);;
+            height: 400px;
+        }
+        #d2{
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="a1">I&Co</h1>
+    <div id="a3">
+        <div>
+            <a href="#home">About</a>
+        </div>
+        <div>
+            <a  href="#gallery">Contact</a>
+        </div>
+        <div>
+            <a href="#contact">Gallery</a>
+        </div>
+        <div>
+            <a href="#about">Home</a>
+        </div>
+    </div> 
+    <br> <br> <br> <br>
+    <h2 id="a5">
+        Your Life 
+    </h2>
+    <h2 id="a4">
+        Matters The Most
+    </h2>
+    <br>
+    <div id="a6">
+
+    </div>
+<br>
+
+<h3 id="a7">
+    Providing The Best Service Since 2012
+</h3>
+
+<button>
+    Hire Now
+</button>
+
+<div id="a8">
+    <div id="a9">
+        About Us
+    </div>
+    <div id="b1">
+        Most Voracious Service
+    </div>
+    <div id="b2">
+        Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.
+
+        Good lights it very to above. Days image to sea. Over seasons and spirit beast in over greater bearing creepeth.
+<br> <br>
+        Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.
+
+        Good lights it very to above. Days image to sea. Over seasons and spirit beast in over greater bearing creepeth.
+    </div>
+    <div id="b3">
+        <img id="b4" src="pic2.jpg" alt="">
+    </div>
+</div>
+<br> <br> <br>
+
+<div>
+    <div id="b6">
+        <h2 id="b5">
+            Popular Hires
+        </h2>    
+    </div>
+   
+</div>
+    
+    <div id="c3">
+        <img id="b7" src="pic2.jpg" alt="">
+        <h2>Heading ABC</h2>
+        <p class="c2">Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.</p>
+        <h3>Price $200</h3>
+    </div>
+
+    <div id="c4">
+        <img id="b8" src="pic2.jpg" alt="">
+        <h2>Heading ABC</h2>
+        <p class="c2">Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.</p>
+        <h3>Price $200</h3>
+    </div>
+
+    <div id="c5">
+        <img id="b9" src="pic2.jpg" alt="">
+        <h2>Heading ABC</h2>
+        <p class="c2">Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.</p>
+        <h3>Price $200</h3>
+    </div>
+
+    <div id="c6">
+        <img id="b10" src="pic2.jpg" alt="">
+        <h2>Heading ABC</h2>
+        <p class="c2">Good lights it very to above. Days image to sea. Over there seasons and spirit beast in. Greater bearing creepeth very behold fourth night morning seed moved.</p>
+        <h3>Price $200</h3>
+    </div>
+    <video width="1500" height="550px" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+<br> <br> <br>
+
+<h3 id="c7">
+    Testimonials
+</h3>
+<h2 id="c8">
+    See What People Wanna Say
+</h2>
+<div id="asd">
+<img id="ads" src="sniper.jpg " alt="">
+</div>
+    
+<footer>
+    <h3 id="d2">
+        I&Co.
+    </h3>
+    <h5></h5>
+</footer>
+
+</body>
+</html>
